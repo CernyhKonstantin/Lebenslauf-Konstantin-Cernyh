@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio – Konstantin Cernyh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Konstantin Cernyh</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#cv">Lebenslauf</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+    </ul>
+    <button id="theme-toggle">🌓</button>
+</nav>
+
+<header id="home">
+    <div class="hero">
+        <img src="profile.jpg" alt="Profilbild" class="profile-img">
+        <h1>Software Developer & Anlagenfahrer</h1>
+        <p>Ich kombiniere Industrieerfahrung mit IT-Know-how.</p>
+    </div>
+</header>
+
+<main>
+
+<section id="cv" class="card">
+    <h2>Lebenslauf</h2>
+
+    <div class="cv-grid">
+
+        <div>
+            <h3>Persönliche Daten</h3>
+            <p>Geboren am 13.12.1993 in Biskek (Kirgisistan)</p>
+            <p>Nationalität: Deutsch</p>
+            <p>Familienstand: Ledig</p>
+        </div>
+
+        <div>
+            <h3>Berufserfahrung</h3>
+            <ul>
+                <li>2025 – Fernstudium Software Development</li>
+                <li>2022 – Anlagenfahrer (Schichtführer) – Rovita</li>
+                <li>2020 – Sicherheitsbeobachter – Dräger</li>
+                <li>2019 – Lagerlogistik Qualifizierung</li>
+                <li>2014 – 2018 B&R Automation etc.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Ausbildung</h3>
+            <p>2010 – 2013 Ausbildung Fahrzeuglackierer</p>
+        </div>
+
+        <div>
+            <h3>Schule</h3>
+            <p>Quali – Neuötting / Biskek</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="skills" class="card">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+        <div>
+            <h3>Sprachen</h3>
+            <ul>
+                <li>Deutsch</li>
+                <li>Russisch</li>
+                <li>Englisch (Grundkenntnisse)</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>IT & Software</h3>
+            <ul>
+                <li>CSS, HTML, PHP, JS</li>
+                <li>Python, C#, C++, GitHub</li>
+                <li>MySQL, SAP, MS Office</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Lizenzen & Führerscheine</h3>
+            <ul>
+                <li>Klasse B</li>
+                <li>Stapler</li>
+                <li>Hallenkrane</li>
+                <li>Hubarbeitsbühnen</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="card">
+    <h2>Kontakt</h2>
+    <p><strong>Adresse:</strong> Ortlehnerstr. 1 · 84508 Burgkirchen</p>
+    <p><strong>Mobil:</strong> +49 176 83 05 32 62</p>
+    <p><strong>E-Mail:</strong> cernyhk@web.de</p>
+</section>
+
+</main>
+
+<footer>
+    © 2025 · Portfolio von Konstantin Cernyh
+</footer>
+
+<script>
+document.getElementById("theme-toggle").onclick = function() {
+    document.body.classList.toggle("dark");
+};
+</script>
+
+</body>
+</html>
